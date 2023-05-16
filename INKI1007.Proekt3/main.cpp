@@ -62,7 +62,7 @@ int main(){
         cout << "Error opening file." << endl;
         return 1;
     }
-    // Go zapisuvame vektorot so pomos na iterator
+    // Go zapisuvame vektorot so pomos na for ciklus
     for (int i = 0; i < CharVec.size(); i++) {
         outputFile << CharVec[i] << " ";
     }
